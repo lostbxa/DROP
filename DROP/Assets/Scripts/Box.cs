@@ -21,6 +21,8 @@ public class Box : MonoBehaviour
     float startTime;
     Color col = Color.black;
     bool done = false;
+    Touch lastFrame;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,11 +34,25 @@ public class Box : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!set)
+        if (Input.touchCount > 0)
         {
-            transform.Rotate(Vector3.up, Input.GetAxis("Mouse X") * .75f);
+            Debug.Log("Touch");
+            if (!set)
+            {
+                Touch thisFrame = Input.GetTouch(0);
+                // thisFrameX - previousFrameX = total movement 
+                if (thisFrame.phase == TouchPhase.Moved)
+                {
+                    transform.Rotate(Vector3.up, thisFrame.deltaPosition.x * .25f);
+                    lastFrame = thisFrame;
+                }
+                else if (thisFrame.phase == TouchPhase.Began)
+                {
+                    lastFrame = thisFrame;
+                }
+            }
         }
-        else if(fail)
+        else if (fail)
         {
             float t = (Time.time - startTime) / duration;
             GetComponent<MeshRenderer>().material.color = new Color(Mathf.SmoothStep(col.r, 0, t), Mathf.SmoothStep(col.g, 0, t), Mathf.SmoothStep(col.b, 0, t));

@@ -95,28 +95,32 @@ public class GUIControls : MonoBehaviour
                 Destroy(Credits.gameObject);
             }
         }
-        if (Input.GetMouseButton(0) && !playing)
+        if (Input.touchCount > 0)
+
         {
-            switch (Selection)
+            if (Input.GetTouch(0).phase == TouchPhase.Ended && !playing)
             {
-                case 1:
-                    startTime = Time.time;
-                    moving = true;
-                    Drop.GetComponent<Rigidbody>().useGravity = true;
-                    Options.GetComponent<Rigidbody>().useGravity = true;
-                    Credits.GetComponent<Rigidbody>().useGravity = true;
-                    playing = true;
-                    break;
+                switch (Selection)
+                {
+                    case 1:
+                        startTime = Time.time;
+                        moving = true;
+                        Drop.GetComponent<Rigidbody>().useGravity = true;
+                        Options.GetComponent<Rigidbody>().useGravity = true;
+                        Credits.GetComponent<Rigidbody>().useGravity = true;
+                        playing = true;
+                        break;
 
-                case 2:
-                    Debug.Log("Options");
-                    break;
+                    case 2:
+                        Debug.Log("Options");
+                        break;
 
-                case 3:
-                    Debug.Log("Credits");
-                    break;
+                    case 3:
+                        Debug.Log("Credits");
+                        break;
+                }
+
             }
-
         }
     }
 }
