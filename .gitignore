@@ -14,7 +14,7 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
-*.suo
+!NeuralNetwork*.sln
 *.tmp
 *.user
 *.userprefs
