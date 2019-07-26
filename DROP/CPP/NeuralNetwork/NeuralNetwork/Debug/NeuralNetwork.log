@@ -1,0 +1,11 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+c:\users\lostbxa\documents\drop\cpp\neuralnetwork\neuralnetwork\dllmain.cpp(45): warning C4018: '<': signed/unsigned mismatch
+c:\users\lostbxa\documents\drop\cpp\neuralnetwork\neuralnetwork\dllmain.cpp(49): warning C4018: '<': signed/unsigned mismatch
+c:\users\lostbxa\documents\drop\cpp\neuralnetwork\neuralnetwork\dllmain.cpp(91): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\lostbxa\documents\drop\cpp\neuralnetwork\neuralnetwork\dllmain.cpp(100): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+c:\users\lostbxa\documents\drop\cpp\neuralnetwork\neuralnetwork\dllmain.cpp(103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  NeuralNetwork.cpp
+  Generating Code...
+     Creating library C:\Users\lostbxa\Documents\Drop\CPP\NeuralNetwork\Debug\NeuralNetwork.lib and object C:\Users\lostbxa\Documents\Drop\CPP\NeuralNetwork\Debug\NeuralNetwork.exp
+  NeuralNetwork.vcxproj -> C:\Users\lostbxa\Documents\Drop\CPP\NeuralNetwork\Debug\NeuralNetwork.dll

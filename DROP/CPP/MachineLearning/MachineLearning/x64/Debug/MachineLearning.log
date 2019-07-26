@@ -1,0 +1,52 @@
+﻿     Creating library C:\Users\lostbxa\Documents\Drop\CPP\MachineLearning\x64\Debug\MachineLearning.lib and object C:\Users\lostbxa\Documents\Drop\CPP\MachineLearning\x64\Debug\MachineLearning.exp
+LINK : error LNK2001: unresolved external symbol extern C
+main.obj : error LNK2019: unresolved external symbol __imp__invalid_parameter referenced in function "void * __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)" (??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__CrtDbgReport referenced in function "void * __cdecl std::_Allocate_manually_vector_aligned<struct std::_Default_allocate_traits>(unsigned __int64)" (??$_Allocate_manually_vector_aligned@U_Default_allocate_traits@std@@@std@@YAPEAX_K@Z)
+main.obj : error LNK2019: unresolved external symbol __imp_srand referenced in function BuildNetwork
+main.obj : error LNK2019: unresolved external symbol __imp_rand referenced in function BuildNetwork
+main.obj : error LNK2019: unresolved external symbol memmove referenced in function "struct Connection * * __cdecl std::_Copy_memmove<struct Connection * *,struct Connection * *>(struct Connection * *,struct Connection * *,struct Connection * *)" (??$_Copy_memmove@PEAPEAUConnection@@PEAPEAU1@@std@@YAPEAPEAUConnection@@PEAPEAU1@00@Z)
+main.obj : error LNK2019: unresolved external symbol __imp__time64 referenced in function time
+main.obj : error LNK2019: unresolved external symbol _CxxThrowException referenced in function __catch$??$_Emplace_reallocate@AEBUNode@@@?$vector@UNode@@V?$allocator@UNode@@@std@@@std@@QEAAPEAUNode@@QEAU2@AEBU2@@Z$0
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2001: unresolved external symbol _CxxThrowException
+main.obj : error LNK2001: unresolved external symbol __CxxFrameHandler3
+MSVCRTD.lib(gshandlereh.obj) : error LNK2001: unresolved external symbol __CxxFrameHandler3
+MSVCRTD.lib(new_scalar.obj) : error LNK2019: unresolved external symbol _callnewh referenced in function "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z)
+MSVCRTD.lib(new_scalar.obj) : error LNK2019: unresolved external symbol malloc referenced in function "void * __cdecl operator new(unsigned __int64)" (??2@YAPEAX_K@Z)
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __vcrt_initialize referenced in function __scrt_initialize_crt
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __vcrt_uninitialize referenced in function __scrt_initialize_crt
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __vcrt_uninitialize_critical referenced in function __scrt_dllmain_uninitialize_critical
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __vcrt_thread_attach referenced in function __scrt_dllmain_crt_thread_attach
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __vcrt_thread_detach referenced in function __scrt_dllmain_crt_thread_attach
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _seh_filter_dll referenced in function __scrt_dllmain_exception_filter
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _is_c_termination_complete referenced in function __scrt_dllmain_uninitialize_c
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _configure_narrow_argv referenced in function "public: static int __cdecl __scrt_narrow_argv_policy::configure_argv(void)" (?configure_argv@__scrt_narrow_argv_policy@@SAHXZ)
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _initialize_narrow_environment referenced in function "public: static int __cdecl __scrt_narrow_environment_policy::initialize_environment(void)" (?initialize_environment@__scrt_narrow_environment_policy@@SAHXZ)
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _initialize_onexit_table referenced in function __scrt_initialize_onexit_tables
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _register_onexit_function referenced in function _onexit
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _execute_onexit_table referenced in function __scrt_dllmain_uninitialize_c
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _crt_atexit referenced in function _onexit
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _crt_at_quick_exit referenced in function at_quick_exit
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __acrt_initialize referenced in function __scrt_initialize_crt
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __acrt_uninitialize referenced in function __scrt_uninitialize_crt
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __acrt_uninitialize_critical referenced in function __scrt_dllmain_uninitialize_critical
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __acrt_thread_attach referenced in function __scrt_dllmain_crt_thread_attach
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol __acrt_thread_detach referenced in function __scrt_dllmain_crt_thread_detach
+MSVCRTD.lib(utility.obj) : error LNK2019: unresolved external symbol _cexit referenced in function __scrt_dllmain_uninitialize_c
+MSVCRTD.lib(utility.obj) : error LNK2001: unresolved external symbol __C_specific_handler
+MSVCRTD.lib(init.obj) : error LNK2019: unresolved external symbol _CrtDbgReport referenced in function _CRT_RTC_INIT
+MSVCRTD.lib(init.obj) : error LNK2019: unresolved external symbol _CrtDbgReportW referenced in function _CRT_RTC_INITW
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2019: unresolved external symbol __std_exception_copy referenced in function "public: __cdecl std::exception::exception(class std::exception const &)" (??0exception@std@@QEAA@AEBV01@@Z)
+MSVCRTD.lib(throw_bad_alloc.obj) : error LNK2019: unresolved external symbol __std_exception_destroy referenced in function "public: virtual __cdecl std::exception::~exception(void)" (??1exception@std@@UEAA@XZ)
+MSVCRTD.lib(delete_scalar.obj) : error LNK2019: unresolved external symbol _free_dbg referenced in function "void __cdecl operator delete(void *)" (??3@YAXPEAX@Z)
+MSVCRTD.lib(utility_desktop.obj) : error LNK2019: unresolved external symbol terminate referenced in function __scrt_unhandled_exception_filter
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol strcpy_s referenced in function "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol strcat_s referenced in function "void __cdecl _RTC_StackFailure(void *,char const *)" (?_RTC_StackFailure@@YAXPEAXPEBD@Z)
+MSVCRTD.lib(error.obj) : error LNK2019: unresolved external symbol __stdio_common_vsprintf_s referenced in function _vsprintf_s_l
+MSVCRTD.lib(error.obj) : error LNK2001: unresolved external symbol __C_specific_handler_noexcept
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol _wmakepath_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol _wsplitpath_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol wcscpy_s referenced in function "int __cdecl GetPdbDllPathFromFilePath(wchar_t const *,wchar_t *,unsigned __int64)" (?GetPdbDllPathFromFilePath@@YAHPEB_WPEA_W_K@Z)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __vcrt_GetModuleFileNameW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __vcrt_GetModuleHandleW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+MSVCRTD.lib(pdblkup.obj) : error LNK2019: unresolved external symbol __vcrt_LoadLibraryExW referenced in function "struct HINSTANCE__ * __cdecl GetPdbDll(void)" (?GetPdbDll@@YAPEAUHINSTANCE__@@XZ)
+C:\Users\lostbxa\Documents\Drop\CPP\MachineLearning\x64\Debug\MachineLearning.dll : fatal error LNK1120: 48 unresolved externals
